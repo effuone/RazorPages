@@ -1,0 +1,12 @@
+﻿@page
+@model Razor.Pages.LoginModel
+@{
+}
+
+@using (Html.BeginForm())
+{
+   <p>Your email: @Html.TextBoxFor(x => x.Email)</p>
+   <p>Your password: @Html.TextBoxFor(x=>x.Password)</p>       
+   <input name="login" type="submit" value="Login" />
+   <input name="" type="submit" value="Login" />
+}

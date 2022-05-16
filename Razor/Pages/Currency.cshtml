@@ -1,0 +1,11 @@
+﻿@page
+@model Razor.Pages.CurrencyModel
+@{
+    ViewData["Title"] = "Обмен валюты";
+}
+ 
+<h2>@Model.Message</h2>
+<form method="post">
+    <input type="number" name="sum" />
+    <input type="submit" value="Send" />
+</form>
